@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root .dark {
+  --color-background: linear-gradient(#252537,#161625);
+  --color-primary: linear-gradient(0deg,rgba(51,51,75,0.24),rgba(51,51,75,0.24)),linear-gradient(0deg,#27273e,#27273e);
+  --color-field-background: #212128;
+  --color-field-border: #9393af;
+  --color-field-border-secondary: #3f3f54;
+  --color-accent: #0bf;
+  --color-accent-faded: #2c2d2e;
+  --color-text-primary: #fff;
+  --color-text-secondary: #545462;
+  --color-text-green: #0fa;
+  --color-text-red: #f0a;
+  --color-text-yellow: #ef0;
+  --color-icon-bg: var(--color-background-group);
+  --color-icon: var(--color-text-secondary);
+  --color-icon-blue: var(--color-accent);
+  --color-icon-red: var(--color-text-red);
+  --color-icon-green: var(--color-text-green);
+  --color-background-group: #27273e;
+  --shadow-group: 0 0 13px 19px rgba(0,0,0,0.02);
+  --color-background-group-faded: #242434;
+  --color-background-subgroup: linear-gradient(0deg,rgba(51,51,75,0.24),rgba(51,51,75,0.24)),#27273e;
+  --shadow-subgroup: 0 0 1px rgba(20,16,41,0.4),0 0 8px rgba(20,16,41,0.24),0 10px 10px rgba(20,16,41,0.1);
+  --color-table-header: linear-gradient(90deg,rgba(224,224,255,0.067),rgba(224,224,255,0.1));
+  --color-table-header-not-transparent: #36364e;
+  --color-table-header-tab: rgba(224,224,255,0.067);
+  --color-table-header-tab-active: #393951;
+  --shadow-table-header: 0 4px 10px rgba(32,32,54,0.7);
+  --color-wallet-background: #2c2945;
+  --color-orderbook-green: #3e816e;
+  --color-orderbook-red: #752368;
+  --color-header-add-wallet-button: #2b2b42;
+  --color-header-add-wallet-button-hover: #35354d;
+  --color-select-dropdown: #26283d;
+  --color-select-dropdown-hover: #2a2a41;
+  --block-color: #0f0d1b;
+  --color-primary-text: #8d90af;
+  --table-th-color: #353654;
+  --table-th-color-hover: #444564;
+  --table-tr-color-hover: #141226;
+  --input-bg-color: #090c20;
+  --input-border-color: #191732;
+  --input-focus-border-color: #353654;
+  --input-placeholder-color: #353652;
+}
+.tôp {
+  background-color: #22242626;
+  position: absolute;
+}

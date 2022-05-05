@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+body {
+	font-family: 'Sen', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	background:linear-gradient(0deg,rgba(51,51,75,0.24),rgba(51,51,75,0.24)),linear-gradient(0deg,#27273e,#27273e);
+}
+img {
+	max-width: 100%;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.img-belly {
+	margin: 10px 10px;
+	font-weight: bold;
+}
+.img___belly {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #000;
+	font-weight: bold !important;
+}
+.network {
+	margin-left: -75%;
+	margin-bottom: 10px;
+	color: #000;
+	font-weight: bold;
+}
+
+
+img {
+	max-width: 100%;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.from__belly {
+   margin-right: 26%;
+   color: #000;
+   font-weight: bold;
+}
+.to__belly {
+    margin-right: 30%;
+    color: #000;
+	font-weight: bold;
+
+}
+.asset__belly{
+    color: #000 ;
+	font-weight: bold;
+}
+
+.logo__belly {
+	margin-left: 10%;
+	margin-bottom: 10px;
+	color: #000;
+	font-weight: bold;
+}
+/*========================== HEADER ==========================*/
+header,
+header a {
+	color: #47131A;
+	font-weight: 700;
+}
+header {
+	background: #fff;
+	padding: 10px 0;
+	border-bottom: 1px solid #d3d2d0;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+/*========================== SIDE MENU ==========================*/
+aside {
+	font-weight: 700;
+	color: #000;
+	width: 249px;
+	padding: 20px 20px 0 0;
+	background: rgb(192, 227, 237);
+	position: fixed;
+    overflow: auto;
+    height: calc(100% - 57px);
+	top: 101px;
+	
+	
+}
+aside a {
+	display: block;
+	padding: 10px 20px;
+	color: #000;
+	border-radius: 8px;
+	position: relative;
+	white-space: nowrap;
+	
+}
+aside .iAmBabu {
+	text-align: right;
+}
+#mainmenu li a .icon {
+	margin-right: 10px;
+	width: 25px;
+}
+#mainmenu li a .icon,
+#mainmenu li a .text {
+	display: inline-block;
+	vertical-align: middle;
+}
+#mainmenu li a:hover {
+	color: #F6B200;
+
+}
+.metasmak__belly {
+	margin-right: 10px;
+}
+.dropdown__belly {
+	border: 1px solid transparent !important;
+	background-color: rgb(192, 227, 237) !important;
+	font-size: 1.3rem !important;
+	padding: 10px 10px !important;
+}
+.network__dropdown {
+	border: 1px solid rgb(135, 132, 132) !important;
+	background-color: rgb(192, 227, 237) !important;
+	width:260px !important;
+	font-size: 1.2rem !important;
+	height: 45px !important;
+	margin-right: 30px !important;
+}
+.aa {
+	background-color: rgb(198, 159, 60);
+}
